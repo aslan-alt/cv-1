@@ -4,7 +4,7 @@ let style = document.querySelector("#style")
 let = string = `
 /*你好
 我是一名前端新人
-下面我要加样式了（装逼了）*/
+下面我要加样式了(装X了)*/
 
 body{
     color: rgba(10,128,90,10);
@@ -105,6 +105,6 @@ let print = () => {
         window.scrollTo(0, 99999)
         html.scrollTo(0,99999)
         n += 1;
-    }, 60)
+    }, 10)
 }
 print()
