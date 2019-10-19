@@ -82,7 +82,7 @@ body{
     background: radial-gradient(circle, rgba(253,187,45,1) 0%, rgba(253,187,45,1) 20%, rgba(34,193,195,1) 20%, rgba(34,193,195,1) 100%);
 }
 #div2 {
-    animation:move 5s linear infinite 
+    animation:move 5s linear infinite;
 }
 @keyframes move {
     from {
