@@ -105,6 +105,6 @@ let print = () => {
         window.scrollTo(0, 99999)
         html.scrollTo(0,99999)
         n += 1;
-    }, 1)
+    }, 300)
 }
 print()
