@@ -23,8 +23,8 @@ body{
 #div2{
     position: fixed;
     border:1px solid red;
-    width:400px;
-    height:400px;
+    width:200px;
+    height:200px;
     right:10%;
     top:15%;
 }
@@ -57,8 +57,8 @@ body{
 #div2::before{
     content:'';
     display:block;
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
     border-radius:50%;
     top:0;
     left:50%;
