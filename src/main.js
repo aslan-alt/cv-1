@@ -3,8 +3,8 @@ let style = document.querySelector("#style")
 
 let = string = `
 /*你好
-我是一名前端新人
-下面我要加样式了(装X了)*/
+ 我是一名前端新人
+ 下面我要加样式了(装X了)*/
 
 body{
     color: rgba(10,128,90,10);
@@ -18,7 +18,7 @@ body{
     line-height: 1.55; 
 }
 /*接下来我演示一下我的前端功底
-首先我要准备一个div*/
+ 首先我要准备一个div*/
 
 #div2{
     position: fixed;
@@ -29,8 +29,8 @@ body{
     top:15%;
 }
 /*我要将做一个太极图
-太极图中有阴阳鱼
-我先要将div变成圆*/
+ 太极图中有阴阳鱼
+ 我先要将div变成圆*/
 @media (max-width:500px){
     #html{
         height:50vh;
@@ -105,6 +105,6 @@ let print = () => {
         window.scrollTo(0, 99999)
         html.scrollTo(0,99999)
         n += 1;
-    }, 10)
+    },5)
 }
 print()
